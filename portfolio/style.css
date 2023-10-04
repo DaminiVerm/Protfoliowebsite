@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Sedgwick+Ave+Display&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(133, 217, 247);
+    font-family: "Fira Sana", sans-serif;
+    height: 100vh;
+    transition: transform  0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33 px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: white;
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    background-color: white;
+    height: 45vh;
+    width: 80vw;
+    margin: 84px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: centre;
+    flex-direction: column;
+}
+
+.coder{
+    font-size: 60;
+    font-weight: bold;
+    
+}
+.hello {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(43, 142, 234);
+}
+
+.button {
+
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(245, 241, 242);
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 03px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue
+}
+
+.devPic img {
+    height: 45vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 88px;
+
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+
+}
+
+.contactform h2{
+    font-size: 25px;
+}
+
+.contactform form div {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+#emailHelp {
+    font-size: 14px;
+    color: grey;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 2px;
+    margin: 3px 0;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+
+}
+ 
+
+.blogItem p{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+    
+
+}
+
+h2{
+    font-size: 40px;
+}
+
+
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+    
+
+}
+
+.skillContainer{
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 12px;
+
+}
+
+.skillItem{
+    display: flex;
+    align-items: centre;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900 ;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red ;
+    border: 2px solid black;
+    
+}
+
+.hundred{
+    width: 265px;
+     
+     
+
+}
+
+.fifty{
+    width: 125px;
+    background-color: orange;
+}
+
+.t5{
+    width: 75px; 
+    background-color: yellow;
+}
+
+.t6{
+    width: 50px;
+    background-color: green;
+}
+h3{
+    font-size:40px ;
+    font-weight: bold;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 185;
+    margin-top: 10px;
+}
+.C{
+    color: blue;
+}
+@media (max-width: 1615px){
+    
+}
+
+.blogContainer img{
+    height: 60vh;
+    display: inline-flex;
+} 
+
+.img1 img{
+    display: inline-flex;
+    height: 40vh;
+}
+ 
+.pqr img{
+    display: inline-flex;
+    height: 40vh;
+}
+ 
